@@ -8,6 +8,7 @@
       <picture class="card__picture block relative aspect-[4/3] mb-5">
         <img class="card__image absolute left-0 top-0 w-full h-full object-cover" src="https://glonassgps.biz/wp-content/uploads/2022/12/commercheskiy_transport.png" alt="card">
       </picture>
+      <div class="card__price text-3xl font-bold mb-5">{{ item.price }} &#8381;</div>
       <router-link :to="{ name: 'vehicle', params: {id: item.id} }" 
       class="
         card__description
